@@ -43,7 +43,7 @@ nav {
 #changeTheme img {
 	width: 20px; /* Adjusted size */
 	height: 20px; /* Adjusted size */
-	margin-right: 10px; /* Reduced margin to prevent overflow */
+	margin-right: 20px; /* Reduced margin to prevent overflow */
 	fill: #646cff;
 }
 

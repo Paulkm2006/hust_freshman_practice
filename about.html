@@ -4,18 +4,49 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script type="module" src="js/index.js"></script>
-	<title>About Paul</title>
+	<script type="module" src="js/about.js"></script>
+	<title>Paul's Webpage</title>
 	<link rel="stylesheet" href="css/navbar.css">
-	<link rel="stylesheet" href="css/theme.css"> <!-- Ensure theme.css is linked -->
+	<link rel="stylesheet" href="css/theme.css">
+	<link rel="stylesheet" href="css/about.css">
 </head>
 
 <body>
 	<nav></nav>
-	<div class="container">
-		<h1>About Me</h1>
-		<p>I'm Paul, passionate about learning web development.</p>
-		<!-- ...existing code... -->
+	<div id="mainContainer">
+		<div id="aboutContent" class="container">
+			<h1>About Me</h1>
+			<p>Hello! I'm Paul, a freshman in HUST CS. I'm currently learning Rust and C. I'm also learning various algorithms and data structures. I'm excited to learn more about web development and to create more projects in the future.</p>
+		</div>
+		<div id="skillsContent" class="container">
+			<h1>Skills</h1>
+			<p>Here are some of the skills I've learned:</p>
+			<ul>
+				<li>
+					<img src="img/python-svgrepo-com.svg" class="skill-icon">
+					Python, especially in Flask
+				</li>
+				<li>
+					<img src="img/server-svgrepo-com.svg" class="skill-icon">
+					Server maintenance and webpage management
+				</li>
+				<li>
+					Basic knowledge of 
+					<img src="img/go-svgrepo-com.svg" class="skill-icon">
+					Go and 
+					<img src="img/rust-svgrepo-com.svg" class="skill-icon">
+					Rust</li>
+			</ul>
+		</div>
+		<div id="hobbiesContent" class="container">
+			<h1>Hobbies</h1>
+			<p>Here are some of my hobbies:</p>
+			<ul>
+				<li>Watching lots of movies and TV shows</li>
+				<li>Diving into the history of internet</li>
+				<li>Trying out various operating systems (mostly vintage ones)</li>
+				<li>Code for various projects</li>
+			</ul>
 	</div>
 	<footer></footer>
 </body>

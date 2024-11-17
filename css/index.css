@@ -16,26 +16,29 @@
 #frontcontent {
     width: 50%;
     height: 50%;
-    /* background: #3164bd; */ /* Removed to allow theme.css to control background */
-    background-color: #fff; /* Light mode background */
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-content: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
-    border-radius: 10px; /* Rounds the corners */
-    padding: 20px; /* Adds padding inside the container */
-    /* ...existing code... */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
 }
 
-#frontcontent.dark-mode {
-    background-color: #333; /* Dark mode background */
-    color: #f0f0f0; /* Dark mode text color */
+#frontcontent.dark-theme {
+    background-color: #333;
+    color: #f0f0f0;
 }
 
-/* Optional: Transition for smooth theme change */
-#frontcontent {
-    transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+h2 {
+	margin-top: 20px;
+}
+
+p {
+	margin-top: 20px;
+	font-size: 1.2em;
+	margin-bottom: 20px;
 }

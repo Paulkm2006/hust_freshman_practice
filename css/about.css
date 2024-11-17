@@ -1,0 +1,83 @@
+@keyframes slideOut {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 40px;
+    
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    opacity: 0;
+    transform: translateX(-100%);
+    
+    animation: slideOut 1s ease forwards;
+
+    color: black;
+    background: linear-gradient(90deg, #00bcd461, #9db9c7);
+}
+
+#mainContainer .container:nth-child(1) {
+    animation: slideOut 1s ease forwards;
+    animation-delay: 0.3s;
+}
+
+#mainContainer .container:nth-child(2) {
+    animation: slideOut 1s ease forwards;
+    animation-delay: 0.6s;
+}
+
+#mainContainer .container:nth-child(3) {
+	animation: slideOut 1s ease forwards;
+	animation-delay: 0.9s;
+}
+
+.container.dark-theme {
+    background: linear-gradient(90deg, #ffeb3b69, #444);
+    color: #f0f0f0;
+}
+
+ul {
+	list-style-type: none;
+	padding: 10px;
+	margin: 0;
+}
+
+#mainContainer .container h1,
+#mainContainer .container p,
+#mainContainer .container ul li {
+    opacity: 0;
+    transform: translateX(-50px);
+    animation: slideOut 1s ease forwards;
+}
+
+#mainContainer .container h1 {
+    animation-delay: 0.3s;
+}
+
+#mainContainer .container p {
+    animation-delay: 0.6s;
+}
+
+#mainContainer .container ul li {
+    animation-delay: 0.9s;
+}
+li {
+	margin-bottom: 10px;
+}
+
+.skill-icon {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between the icon and text */
+    vertical-align: middle; /* Align vertically with the text */
+}

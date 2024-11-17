@@ -16,7 +16,7 @@ function u() {
                 </button>
             </div>
     `;
-    t();
+    t(); // Initialize theme toggle
     document.querySelector("footer").innerHTML = `
         <h6>©2024 Paul</h6>
     `;

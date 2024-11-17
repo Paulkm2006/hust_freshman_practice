@@ -1,16 +1,16 @@
-/* CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 body {
-    margin: 0; /* Remove default margin */
+    margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     color: #333;
-    padding-top: 60px; /* Added to prevent navbar from overlapping content */
+    padding-top: 60px;
 }
 
 body.dark-theme {
@@ -21,4 +21,5 @@ body.dark-theme {
 .container.dark-theme {
     background-color: #444;
 }
+
 
