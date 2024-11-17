@@ -1,5 +1,6 @@
 import { i as initializeNavbar } from "./navbar.js";
 
 document.addEventListener("DOMContentLoaded", () => {
-	initializeNavbar();
+    // Initialize the navbar first
+    initializeNavbar();
 });

@@ -1,0 +1,41 @@
+#frontpage {
+    width: 100vw;
+    height: 100vh;
+    min-height: 450px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: linear-gradient(90deg, #ffe5e533, #bec2ffa8);
+    box-shadow: 0 0 2em #4a4a4a80;
+}
+
+#frontcontent {
+    width: 50%;
+    height: 50%;
+    /* background: #3164bd; */ /* Removed to allow theme.css to control background */
+    background-color: #fff; /* Light mode background */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    border-radius: 10px; /* Rounds the corners */
+    padding: 20px; /* Adds padding inside the container */
+    /* ...existing code... */
+}
+
+#frontcontent.dark-mode {
+    background-color: #333; /* Dark mode background */
+    color: #f0f0f0; /* Dark mode text color */
+}
+
+/* Optional: Transition for smooth theme change */
+#frontcontent {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+}
