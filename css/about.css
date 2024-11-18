@@ -81,3 +81,8 @@ li {
     margin-right: 10px; /* Space between the icon and text */
     vertical-align: middle; /* Align vertically with the text */
 }
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

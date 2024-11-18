@@ -9,6 +9,7 @@ function u() {
             <div class="nav-button">
                 <a href="index.html">Home</a>
                 <a href="about.html">About</a>
+                <a href="hobbies.html">Hobby</a>
                 <a href="projects.html">Projects</a>
                 <a href="contact.html">Contact</a>
                 <button id="changeTheme">
