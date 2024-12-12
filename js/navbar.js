@@ -12,6 +12,7 @@ function u() {
                 <a href="hobbies.html">Hobby</a>
                 <a href="projects.html">Projects</a>
                 <a href="contact.html">Contact</a>
+                <a href="https://paulkm2006.github.io/hust_freshman_dorm_homepage/">Dormitory</a>
                 <button id="changeTheme">
                     <img src="img/contrast-filled-svgrepo-com.svg" alt="Change Theme" />
                 </button>
